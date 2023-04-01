@@ -297,10 +297,15 @@ body {
 /* ---------------FOOTER------------------ */
 .footer-section {
   background: var(--main-title-color);
+}
+.footer-wrap {
+  display: flex;
+}
+.footer-box {
   padding-top: 100px;
   padding-bottom: 100px;
+  margin-right: 120px;
 }
-
 .footer-description {
   font-size: 16px;
   line-height: 1.5;
@@ -308,6 +313,18 @@ body {
   color: var(--studio-footer);
   width: 264px;
   margin-top: 16px;
+}
+.social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.soc-media {
+  padding-top: 100px;
+  padding-bottom: 132px;
 }
 
 /* -------------PORTFOLIO ------------------*/
@@ -336,15 +353,23 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  border: none;
+  border: 1px;
   color: #4d5ae5;
   background-color: #f4f4fd;
   padding: 12px 24px;
+  display: flex;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: #ffffff;
+  background: #404bbf;
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 
 /* ---------------OUR SERVICES------------------ */

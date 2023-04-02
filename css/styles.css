@@ -335,8 +335,8 @@ body {
 .icon:focus {
   fill: rgba(64, 75, 191, 1);
 }
-.customers-item:hover,
-.customers-item:focus {
+.customers-link:hover,
+.customers-link:focus {
   border: 1px solid rgba(64, 75, 191, 1);
 }
 

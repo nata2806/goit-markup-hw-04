@@ -194,7 +194,15 @@ body {
 }
 
 /* ---------------WE CAN------------------ */
-
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 .section-title {
   font-weight: 500;
   font-size: 20px;
@@ -239,7 +247,6 @@ body {
 .our-team {
   background-color: #f4f4fd;
 }
-
 .team-item {
   display: flex;
   gap: 24px;
@@ -294,6 +301,41 @@ body {
   text-align: center;
   margin-bottom: 8px;
 }
+
+/* ---------------CUSTOMERS------------------ */
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  text-align: -webkit-match-parent;
+}
+.customers-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(142, 143, 153, 1);
+  color: 8e8F99;
+}
+.icon {
+  width: 104px;
+  height: 56px;
+  fill: #8e8f99;
+}
+
+.icon:hover,
+.icon:focus {
+  fill: rgba(64, 75, 191, 1);
+}
+
 /* ---------------FOOTER------------------ */
 .footer-section {
   background: var(--main-title-color);
@@ -353,7 +395,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  border: 1px;
+  border: 1px solid rgba(231, 233, 252, 1);
   color: #4d5ae5;
   background-color: #f4f4fd;
   padding: 12px 24px;

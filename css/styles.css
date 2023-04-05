@@ -345,8 +345,8 @@ body {
   fill: #8e8f99;
 }
 
-.icon:hover,
-.icon:focus {
+.customers-link:hover > .icon,
+.customers-link:focus > .icon {
   fill: rgba(64, 75, 191, 1);
 }
 .customers-link:hover,
@@ -393,6 +393,10 @@ body {
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+.footer-icon:focus,
+.footer-icon:hover {
+  background-color: #31d0aa;
 }
 
 /* -------------PORTFOLIO ------------------*/
